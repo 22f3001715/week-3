@@ -23,7 +23,7 @@ jobs:
         run: | # python
           uv run --with httpx,lxml,cssselect python scrape.py
 
-      - name: Commit and push changes
+      - name: Commit by 22f3001715@ds.study.iitm.ac.in
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
